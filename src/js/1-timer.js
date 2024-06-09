@@ -37,6 +37,7 @@ const options = {
   },
 };
 
+// функції
 function handleClick() {
   let currentTime;
   let deltaTime;

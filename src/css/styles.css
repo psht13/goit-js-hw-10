@@ -14,7 +14,7 @@ img {
   display: block;
 }
 /*================================================================*/
-/* Main styles */
+/* Main timer styles */
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -106,4 +106,61 @@ input {
 
 .label {
   text-transform: uppercase;
+}
+/*================================================================*/
+/* Main form styles */
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  width: 360px;
+  gap: 16px;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input[type='number'] {
+  width: 360px;
+}
+
+fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 0 16px;
+}
+label {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  outline: none;
+}
+
+button[type='submit'] {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  border: none;
+  font-family: inherit;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4e75ff;
+  transition: background-color 250ms ease-in-out;
+}
+
+button[type='submit']:hover {
+  background-color: #6c8cff;
 }
