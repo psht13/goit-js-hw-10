@@ -49,7 +49,7 @@ input {
 
 #datetime-picker {
   width: 272px;
-  transition: border-color 250ms ease-in-out;
+  transition: border-color 250ms ease-in-out, color 250ms ease-in-out;
 }
 
 #datetime-picker:hover {
@@ -58,6 +58,11 @@ input {
 
 #datetime-picker:focus {
   border-color: #4e75ff;
+}
+
+#datetime-picker:disabled {
+  border-color: #808080;
+  color: #808080;
 }
 
 .timer-btn {
@@ -69,12 +74,17 @@ input {
   height: 40px;
   background-color: #4e75ff;
   outline: none;
-  transition: background-color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
 }
 
 .timer-btn:hover,
 .timer-btn:focus {
   background-color: #6c8cff;
+}
+
+.timer-btn:disabled {
+  color: #989898;
+  background-color: #cfcfcf;
 }
 
 .timer {
