@@ -13,7 +13,7 @@
     "glob": "^8.1.0",
     "vite": "^4.5.2"
   },
-  "author": "Pavlo Yurchenko",
+  "author": "Pavlo Yurchenko <pashtet.gm@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "flatpickr": "^4.6.13",
